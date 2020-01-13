@@ -1,4 +1,4 @@
-package array.week_two;
+package array.week_2;
 
 /**
  * @Description: LeetCode 类型:数组; 题号:121; 难度:简单;

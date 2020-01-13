@@ -1,4 +1,4 @@
-package array.week_two;
+package array.week_2;
 
 import java.util.HashMap;
 

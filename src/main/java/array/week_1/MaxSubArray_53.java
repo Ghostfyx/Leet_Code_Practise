@@ -1,4 +1,4 @@
-package array.week_one;
+package array.week_1;
 
 /**
  * @program: leetcode_practise
