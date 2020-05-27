@@ -17,13 +17,13 @@ import java.util.Map;
  * @author: fanyeuxiang
  * @createDate: 2020-05-25 12:47
  */
-public class LRUCache {
+public class LRUCache_146 {
 
     private LinkedHashMap<Integer, Integer> cacheMap;
 
     private int capacity;
 
-    public LRUCache(int capacity) {
+    public LRUCache_146(int capacity) {
         // accessOrder=true，顺序访问输出，通过重写LinkedHashMap的removeEldestEntry方法
         this.cacheMap = new LinkedHashMap<Integer, Integer>(capacity, (float) 0.75, true){
             private static final long serialVersionUID = 235810647857044238L;
